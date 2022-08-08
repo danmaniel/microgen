@@ -373,7 +373,7 @@ def gyroid(x: float, y: float, z: float) -> float:
        geometry = microgen.Tpms(
            surface_function=microgen.tpms.gyroid,
            type_part="sheet",
-           thickness=0.05
+           thickness=0.10
        )
        shape = geometry.generateSurfaceVtk()
 
